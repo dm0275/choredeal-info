@@ -1,0 +1,9 @@
+build/
+local/
+tmp/
+.idea/
+
+*.log
+*.tmp
+*.env
+.DS_Store
