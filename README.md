@@ -1,11 +1,11 @@
 # ChoreDeal information
 
-Static HTML pages for ChoreDeal. **Updated policy/support copy prepared November 9, 2026; local source has an effective date and no draft/indexing notices. These changes have not been published. Live GitHub Pages still serves the prior draft, verified by direct HTTP on November 9.**
+Static HTML pages for ChoreDeal. **The November 9 versions of the privacy, support and home pages were verified live. Direct HTTP checks on November 9, 2026 returned 200 for all three pages and matched local HTML byte-for-byte, including the effective date and removal of draft/noindex notices.**
 
 - [Privacy policy](docs/privacy.html)
 - [Support](docs/support.html)
 
-Publisher: **Daniel Mancilla**, an individual. Contact: **support@fussionlabs.com**. Launch model: one upfront App Store purchase, all features included, no subscriptions, ads or feature purchases. Apple Family Sharing configuration and purchase testing remain release tasks.
+Public contact for ChoreDeal: **support@fussionlabs.com**. Launch model: one upfront App Store purchase, all features included, no subscriptions, ads or feature purchases. Apple Family Sharing configuration and purchase testing remain release tasks.
 
 ## Remaining launch checks
 
@@ -19,7 +19,7 @@ Publisher: **Daniel Mancilla**, an individual. Contact: **support@fussionlabs.co
 - [x] Publish on GitHub Pages and verify home/privacy/support URLs return HTTP 200 (November 9, 2026).
 - [ ] Repository visibility and exact Pages source settings have not been independently inspected.
 - [x] Prepare revised local copy with an effective date and remove draft/noindex notices (November 9).
-- [ ] Complete publication review and publish the updated pages; verify live content matches source. The effective date in prepared source must be adjusted if publication occurs on a later date.
+- [x] Verify revised privacy/support/home pages are published and match local source (HTTP 200, November 9). Remaining policy review and device checks above stay open.
 - [x] Add policy links in the app (About and onboarding), plus Support in About; app validation is tracked in the app repository.
 - [ ] Confirm final URLs and disclosures saved in App Store Connect.
 - [ ] Finalize App Store privacy answers and reassess manifests against actual practices. Do not treat the source audit's empty collected-data declarations as final answers. Optional support disclosures require all applicable Apple criteria.
@@ -43,7 +43,7 @@ When changing these documents, keep the app release tracker current and distingu
 - `docs/styles.css`: shared responsive styles; system fonts, no external assets or scripts.
 - `docs/.nojekyll`: serve the static files without Jekyll processing.
 
-Edit HTML directly. The original Markdown drafts were converted without changing policy/support wording and removed to avoid divergent copies. Keep the prepared changes local until the outstanding publication review/verification checks above are complete. Do not describe local changes as live. Relative links work both locally and under the GitHub project URL.
+Edit HTML directly. The original Markdown drafts were converted without changing policy/support wording and removed to avoid divergent copies. For future changes, distinguish local preparation from confirmed publication and verify the public content after publishing. Relative links work both locally and under the GitHub project URL.
 
 ## GitHub Pages setup
 
@@ -62,3 +62,5 @@ For a local preview, run `python3 -m http.server 8765 --bind 127.0.0.1 --directo
 ## November 9 policy refresh
 
 Prepared updated effective policy/support copy, recorded Apple-tools-only diagnostics, matched the current Invite & manage sharing label, and removed obsolete draft banners from local source. No change to confirmed publisher, support contact, 90-day resolved-support retention, household sharing/storage, or removal limitations. App links use the canonical GitHub Pages URLs above. Publication and live verification of this revision remain pending; physical-device removal and portal-disclosure gates are not closed by copy edits.
+
+Live revision recheck (November 9): all three public pages return HTTP 200 and exactly match local HTML; draft/noindex notices are absent and the revised policy is live. This supersedes the prior unpublished status. Read-only verification did not deploy changes or complete remaining policy/device/mailbox/portal checks.
